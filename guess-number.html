@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="guess-number.css" />
+</head>
+
+<body>
+    <div id="main">
+        <h2>Guess the number</h2>
+
+        <div id="stage1">
+            <p>Enter a number as above.</p>
+            <input type="text" id="maximum" />
+            <button type="button" id="start">Start</button>
+        </div>
+
+        <div id="stage2" class="hidden">
+            <p>
+                You<span id="chances">0</span> Times have the opportunity to guess.
+            </p>
+            <input type="text" id="guess-number" />
+            <button type="button" id="guess-button">guess</button>
+            <p id="status">Your guess:</p>
+        </div>
+    </div>
+    <script src="guess-number.js"></script>
+</body>
+
+</html>

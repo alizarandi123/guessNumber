@@ -1,0 +1,63 @@
+body {
+    margin: 100px auto;
+    text-align: center;
+    width: 70%;
+    height: 600px;
+}
+
+#main {
+    background-color: #11b764;
+    width: 600px;
+    border-radius: 50%;
+    height: 600px;
+    padding: 80px 60px;
+}
+
+button {
+    background-color: rgb(137, 222, 255);
+    border: none;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 30px;
+    font-size: x-large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 270px;
+    border-radius: 30px;
+    text-align: center;
+    height: 30px;
+    font-size: medium;
+}
+
+h2 {
+    margin-top: 150px;
+    text-align: center;
+    border-bottom: 1px solid #ff0000;
+    padding-bottom: 10px;
+    font-family: cursive;
+}
+
+#chances {
+    font-weight: bold;
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    font-size: xx-large;
+}
